@@ -1,0 +1,36 @@
+/* Style Sheet for majorgolfpools.ca */
+
+/* To insert large background image */
+html 
+{ background: url(images/12_13.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; -moz-background-size: cover;
+    -o-background-size: cover; background-size: cover;
+}
+
+/* overall style for paragraphs */
+p {color:black;text-align:left; font-family: Verdana; font-size: 10px;}
+
+
+/* heading styles */
+h1, h2, h3, h4 {font-family: Verdana, Geneva, sans-serif;color:#006600;}
+
+/* id selector for results table headers (Rd1, Rd2, Rd3, Rd4) */
+#tableheader{
+font-size: 16px;
+font-weight: bold;
+color: #006600;
+
+}
+
+/* id selector for home page icon positioning  */
+#home{float: right; 
+        position:relative;
+        top: 10px;
+        left: -45px;
+}
+
+
+/* global link colour  */
+a {
+    color: #006600;
+}

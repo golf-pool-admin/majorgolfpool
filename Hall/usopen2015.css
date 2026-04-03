@@ -1,0 +1,165 @@
+/* Style Sheet for majorgolfpools.ca */
+
+/* To insert large background image */
+html 
+{ background: url(images/cb_2-4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; -moz-background-size: cover;
+    -o-background-size: cover; background-size: cover;
+}
+
+/* overall style for paragraphs */
+p {color:black;text-align:left; font-family: Verdana; font-size: small;}
+
+
+/* heading styles */
+h1 {font-family: Verdana, Geneva, sans-serif;color:#09367A; text-align: center;}
+h2, h3, h4 {font-family: Verdana, Geneva, sans-serif;color:#09367A;}
+
+/* main index page / div setup */
+.center
+{
+margin-left:auto;                                                         
+margin-right:auto;
+width:80%;
+background-image:url("images/80 - USOpen.png");
+
+border-radius:25px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+/* Champion Picture position */  
+#champ 
+{
+float:right;
+        position:relative;
+        top: 40px;
+        left: 0px;
+        padding-bottom: 85px;
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+        
+/* Major logo position */ 
+#logo
+{
+float:left;
+position: relative;
+        top:35px;
+        left:0px;
+padding-bottom: 150px;
+        padding-right: 10px;
+        opacity:1.0;}
+              
+/* Navigation bar styling */ 
+#nav 
+{
+list-style-type:none;
+margin:0;
+        padding:0;
+overflow:hidden;
+text-align:center;
+}
+#nav li
+{
+display:inline;
+}
+#nav a:link,a:visited
+{
+display:inline-block;
+width:135px;
+font-weight:bold;
+        font-family: Verdana;
+color:#FFFFFF;
+background-color:#09367A;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#nav a:hover,a:active
+{
+background-color:#A1A1A1;
+        color:#09367A;
+}
+
+#lnews
+{font-family:Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#09367A;     }
+      
+#header {
+list-style: none;
+padding-left: 0;
+margin-left: -6px;
+        
+}
+#header li {
+float: left;
+background: url(images/back.usopen.png)no-repeat top center;
+margin: 0 0 0 0;
+}
+      
+#header a {
+display: block;
+        padding: 0 1em;
+color: #FFFFFF;
+text-decoration: none;
+font-weight: bold;
+        font-size: 18px;
+        font-family: Verdana;
+}
+      
+#header #selected {
+position: relative;
+top: 0px;
+background: url(images/front.usopen.png)no-repeat top center;
+        
+        }
+#header #selected a{
+color: #09367A;
+        
+}
+
+#content {
+border: 2px solid;
+color: #09367A;
+clear: both;
+text-align: center;
+vertical-align: top;
+}  
+
+#results {color: #09367A;} 
+
+/* id selector for results table headers (Rd1, Rd2, Rd3, Rd4) */
+#tableheader{
+font-size: 16px;
+font-weight: bold;
+color: #09367A;
+
+}
+
+/* id selector for home page icon positioning  */
+#home{float: right; 
+        position:relative;
+        top: 10px;
+        left: -45px;
+        color: #09367A;
+}
+
+
+/* global link colour  */
+a {
+    color: #09367A;
+}
+
+a.linkcolour:visited{ color: #09367A;}
+
+
+ /* rules page styles  */
+ #category{font-weight: bold; color:#09367A; font-size: large;}
+ 
+ /* positioning of major location/date info under H1 title  */ 
+ #locationdate{
+  position: relative;
+  top: -15px;

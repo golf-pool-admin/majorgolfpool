@@ -1,0 +1,277 @@
+/* Style Sheet for majorgolfpools.ca */
+
+/* To insert large background image */
+html 
+{ background: url(images/sta.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; -moz-background-size: cover;
+    -o-background-size: cover; background-size: cover;
+}
+
+/* overall style for paragraphs */
+p {color:black;text-align:left; font-family: Verdana; font-size: small;}
+
+/* global link colour  */
+a:link {
+    color: #20233D;
+}
+
+a.whatisgoingon:link {
+    color: #7F7B62;
+}
+
+a:visited {
+    color: #20233D;
+}
+
+ /* admin link colour  */
+a.admin:link {
+    color: #20233D;
+}
+
+a.admin:visited {
+    color: #20233D;
+}
+
+
+a.linkcolour:visited{ color: #20233D;}
+
+
+/* heading styles */
+h1 {font-family: Verdana, Geneva, sans-serif;color:#20233D; text-align: center;}
+h2, h3, h4 {font-family: Verdana, Geneva, sans-serif;color:#20233D;}
+
+
+/* main index page / div setup */
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:90%;
+background-image:url(images/80.png);
+
+border-radius:25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+.notnav{
+    color: #20233D;
+ }
+
+/* Champion Picture position */  
+#champ 
+{
+float:right;
+        position:relative;
+        top: 55px;
+        left: 0px;
+        padding-bottom: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+        
+/* Major logo position */ 
+#logo
+{
+float:left;
+position: relative;
+        top:55px;
+        left:0px;
+        padding-bottom: 250px;
+        padding-right: 20px;
+        opacity:1.0;}
+        
+
+              
+         
+              
+/* Navigation bar styling */ 
+#nav 
+{
+list-style-type:none;
+margin:0;
+        padding:0;
+overflow:visible;
+text-align:center;
+}
+#nav li
+{
+display:inline;
+}
+#nav a:link,a:visited
+{
+display:inline-block;
+width:135px;
+font-weight:bold;
+        font-family: Verdana;
+color:#FFFFFF;
+background-color:#20233D;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#nav a:hover,a:active
+{
+background-color:#FF9A40;
+        color:#20233D;
+}
+
+#lnews
+{font-family:Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#20233D;     }
+      
+#header {
+list-style: none;
+padding-left: 0;
+margin-left: -6px;
+        
+}
+#header li {
+float: left;
+background: url(images/back.gif.png)no-repeat top center;
+margin: 0 0 0 0;
+}
+      
+#header a {
+display: block;
+        padding: 0 1em;
+color: white;
+text-decoration: none;
+font-weight: bold;
+        font-size: 18px;
+        font-family: Verdana;
+}
+      
+#header #selected {
+position: relative;
+top: 0px;
+background: url(images/front.gif.png)no-repeat top center;
+        
+        }
+        
+#header #selected a.hover,a:active {background-color:transparent;}
+#header #selected a{
+color: #20233D;
+        
+}
+
+#content {
+border: 2px solid;
+color: #20233D;
+clear: both;
+text-align: center;
+vertical-align: top;
+background: white;
+}  
+
+#content2 {
+float: right;
+border: 2px solid;
+color: #20233D;
+clear: both;
+text-align: center;
+vertical-align: top;
+background: #FEF26A;
+}  
+
+#results {color: #20233D;} 
+
+/* id selector for results table headers (Rd1, Rd2, Rd3, Rd4) */
+#tableheader{
+font-size: 16px;
+font-weight: bold;
+color: #20233D;
+
+}
+
+/* id selector for home page icon positioning  */
+#home{float: right; 
+        position:relative;
+        top: 10px;
+        left: -45px;
+        color: #20233D;
+}
+
+ .view
+{margin-right: 1cm;
+float: right;
+width:5cm;
+background-image:url("images/80.png");
+
+border-radius:25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+    padding-bottom: 0px;     
+}   
+
+
+
+ /* rules page styles  */
+ #category{font-weight: bold; color:#20233D; font-size: large;}
+ 
+ /* positioning of major location/date info under H1 title  */ 
+ #locationdate{
+  position: relative;
+  text-align: center;
+  top: 0px;}
+  
+  /* NEW 2017 Masters - category tags for Rd 1-4 Results pages - maybe elsewhere*/
+#category{font-weight: bold; color:#20233D}
+#category2{font-weight: bold; color:#20233D}
+
+ /* NEW 2019 Masters - stat id for Rd 1-4 Results pages. */
+ 
+ #stat{width: 90%; margin-left:5%; margin-right:5%; border-collapse: collapse; font-family: Verdana, Geneva, sans-serif; font-size: small;}
+      td {vertical-align: top; text-align: left;}
+      
+#stat3{width: 90%; margin-left:5%; margin-right:5%; border-collapse: collapse; font-family: Verdana, Geneva, sans-serif; font-size: medium}
+ 
+ /* NEW Submit button styling on entry form 2019 Masters   #FEF26A    */
+ 
+
+.button {
+  background-color: white; 
+  border: none;
+  color: #20233D;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button1 {
+  background-color: white;
+  color: #20233D;
+  border: 2px solid #20233D;
+  font-weight: bold;
+}
+
+.button1:hover {
+  background-color: #FF9A40;
+  color: #20233D;
+  font-weight: bold;
+}
+
+  /* NEW Post-Hack Admin Page Styling    */ 
+  
+  #admintable {
+border: 2px solid;
+color: #20233D;
+width: 100%;
+text-align: left;
+vertical-align: top;
+background-color: #ffffff;
+  }

@@ -1,0 +1,173 @@
+/* Style Sheet for majorgolfpools.ca */
+
+/* To insert large background image */
+html 
+{ background: url(imagesus16/clubouse.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; -moz-background-size: cover;
+    -o-background-size: cover; background-size: cover;
+}
+
+/* overall style for paragraphs */
+p {color:black;text-align:left; font-family: Verdana; font-size: small;}
+
+
+/* heading styles */
+h1 {font-family: Verdana, Geneva, sans-serif;color:#938731; text-align: center;}
+h2, h3, h4 {font-family: Verdana, Geneva, sans-serif;color:#938731;}
+
+/* main index page / div setup */
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:80%;
+background-image:url("imagesus16/80.png");
+
+border-radius:25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Champion Picture position */  
+#champ 
+{
+float:right;
+        position:relative;
+        top: 55px;
+        left: 0px;
+        padding-bottom: 120px;
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+        
+/* Major logo position */ 
+#logo
+{
+float:left;
+position: relative;
+        top:55px;
+        left:0px;
+padding-bottom: 120px;
+        padding-right: 15px;
+        opacity:1.0;}
+              
+/* Navigation bar styling */ 
+#nav 
+{
+list-style-type:none;
+margin:0;
+        padding:0;
+overflow:visible;
+text-align:center;
+}
+#nav li
+{
+display:inline;
+}
+#nav a:link,a:visited
+{
+display:inline-block;
+width:135px;
+font-weight:bold;
+        font-family: Verdana;
+color:#FFFFFF;
+background-color:#938731;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#nav a:hover,a:active
+{
+background-color:#AD131D;
+        color:#FFFFFF;
+}
+
+#lnews
+{font-family:Verdana, Geneva, sans-serif;
+ font-size:14px;
+ color:#7F7B62;     }
+      
+#header {
+list-style: none;
+padding-left: 0;
+margin-left: -6px;
+        
+}
+#header li {
+float: left;
+background: url(imagesus16/back.gif.png)no-repeat top center;
+margin: 0 0 0 0;
+}
+      
+#header a {
+display: block;
+        padding: 0 1em;
+color: #FFFFFF;
+text-decoration: none;
+font-weight: bold;
+        font-size: 18px;
+        font-family: Verdana;
+}
+      
+#header #selected {
+position: relative;
+top: 0px;
+background: url(imagesus16/front.gif.png)no-repeat top center;
+        
+        }
+#header #selected a{
+color: #FFFFFF;
+        
+}
+
+#content {
+border: 2px solid;
+color: #7F7B62;
+clear: both;
+text-align: center;
+vertical-align: top;
+}  
+
+#results {color: #7F7B62;} 
+
+/* id selector for results table headers (Rd1, Rd2, Rd3, Rd4) */
+#tableheader{
+font-size: 16px;
+font-weight: bold;
+color: #006600;
+
+}
+
+/* id selector for home page icon positioning  */
+#home{float: right; 
+        position:relative;
+        top: 10px;
+        left: -45px;
+        color: #0F1D41;
+}
+
+
+/* global link colour  */
+a:link {
+    color: #7F7B62;
+}
+
+
+a.whatisgoingon:link {
+    color: #7F7B62;
+}
+
+
+a.linkcolour:visited{ color: #7F7B620;}
+
+
+ /* rules page styles  */
+ #category{font-weight: bold; color:#938731; font-size: large;}
+ 
+ /* positioning of major location/date info under H1 title  */ 
+ #locationdate{
+  position: relative;
+  top: 0px;}
